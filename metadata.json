@@ -1,0 +1,6 @@
+{
+  "name": "HỘI THI BTCB GIỎI NĂM 2026",
+  "description": "Trang thông tin, tài liệu học tập và thi trực tuyến Hội thi Bí thư Chi bộ giỏi năm 2026",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,180 @@
+{
+  "users": [
+    {
+      "id": "u_1",
+      "email": "admin@bithu2026.vn",
+      "phone": "0987654321",
+      "password": "YWRtaW4=",
+      "fullName": "Trịnh Xuân Hoàng",
+      "role": "admin",
+      "title": "Trưởng Ban Tổ chức",
+      "department": "Phòng Chính trị",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop"
+    },
+    {
+      "id": "u_2",
+      "email": "btc@bithu2026.vn",
+      "phone": "0912345678",
+      "password": "b3JnYW5pemVy",
+      "fullName": "Lê Minh Sơn",
+      "role": "organizer",
+      "title": "Phó Ban Tổ chức",
+      "department": "Ban Tuyên huấn",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop"
+    },
+    {
+      "id": "u_3",
+      "email": "giamkhao@bithu2026.vn",
+      "phone": "0909090909",
+      "password": "anVkZ2U=",
+      "fullName": "Trần Quốc Việt",
+      "role": "judge",
+      "title": "Chủ tịch Ban Giám khảo",
+      "department": "Đảng ủy Quân sự",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop"
+    },
+    {
+      "id": "u_4",
+      "email": "thisinh@bithu2026.vn",
+      "phone": "0933333333",
+      "password": "Y2FuZGlkYXRl",
+      "fullName": "Phạm Minh Đức",
+      "role": "candidate",
+      "title": "Bí thư Chi bộ",
+      "department": "Đại đội 1, Tiểu đoàn 1",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop"
+    }
+  ],
+  "departments": [
+    {
+      "id": "d_1",
+      "name": "Đại đội 1, Tiểu đoàn 1",
+      "battalion": "Tiểu đoàn 1",
+      "company": "Đại đội 1"
+    },
+    {
+      "id": "d_2",
+      "name": "Đại đội 2, Tiểu đoàn 1",
+      "battalion": "Tiểu đoàn 1",
+      "company": "Đại đội 2"
+    },
+    {
+      "id": "d_3",
+      "name": "Đại đội 3, Tiểu đoàn 2",
+      "battalion": "Tiểu đoàn 2",
+      "company": "Đại đội 3"
+    },
+    {
+      "id": "d_4",
+      "name": "Đại đội 4, Tiểu đoàn 2",
+      "battalion": "Tiểu đoàn 2",
+      "company": "Đại đội 4"
+    },
+    {
+      "id": "d_5",
+      "name": "Đại đội Chỉ huy, Tiểu đoàn 3",
+      "battalion": "Tiểu đoàn 3",
+      "company": "Đại đội Chỉ huy"
+    }
+  ],
+  "questions": [],
+  "exams": {
+    "isOfficialActive": false
+  },
+  "examResults": [
+    {
+      "id": "er_1",
+      "userEmail": "thisinh@bithu2026.vn",
+      "userName": "Phạm Minh Đức",
+      "userDepartment": "Đại đội 1, Tiểu đoàn 1",
+      "score": 8.4,
+      "correctCount": 42,
+      "wrongCount": 8,
+      "durationSeconds": 1320,
+      "date": "2026-07-01T15:30:00Z",
+      "type": "practice"
+    }
+  ],
+  "news": [
+    {
+      "id": "n_1",
+      "title": "Đảng ủy Quân sự tổ chức tập huấn công tác chuẩn bị Hội thi Bí thư Chi bộ giỏi 2026",
+      "content": "Sáng nay, Đảng ủy Quân sự đã khai mạc lớp tập huấn nghiệp vụ công tác Đảng cho các Bí thư, Phó Bí thư chi bộ và cấp ủy viên cơ sở trong toàn lực lượng. Nội dung tập trung vào nâng cao năng lực lãnh đạo, kỹ năng tổ chức sinh hoạt chi bộ và quán triệt các chỉ thị về hội thi Bí thư chi bộ giỏi năm 2026. Phát biểu chỉ đạo, đồng chí Chính ủy nhấn mạnh đây là đợt sinh hoạt chính trị sâu rộng nhằm bồi dưỡng hạt nhân nòng cốt chính trị ở cơ sở quân đội.",
+      "category": "Tin tức nổi bật",
+      "imageUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&auto=format&fit=crop",
+      "date": "2026-07-02T08:00:00Z",
+      "comments": [
+        {
+          "user": "Lê Minh Sơn",
+          "text": "Buổi tập huấn rất bổ ích, chuẩn bị chu đáo cho hội thi sắp tới!",
+          "date": "2026-07-02T09:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "n_2",
+      "title": "Nâng cao chất lượng sinh hoạt chi bộ tại các đơn vị cơ sở",
+      "content": "Thực hiện Nghị quyết Đại hội Đảng toàn quốc, Đảng ủy đơn vị đã chỉ đạo quyết liệt việc đổi mới nội dung, hình thức sinh hoạt chi bộ trực thuộc. Việc đưa ứng dụng chuyển đổi số và cổng tài liệu ôn thi trực tuyến đã giúp đảng viên dễ dàng tiếp cận nghị quyết, luật pháp, chỉ thị, đóng góp tích cực vào thắng lợi nhiệm vụ huấn luyện quân sự năm nay.",
+      "category": "Kinh nghiệm - Trao đổi",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&auto=format&fit=crop",
+      "date": "2026-06-30T10:30:00Z",
+      "comments": []
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_1",
+      "title": "Điều lệ Đảng Cộng sản Việt Nam hiện hành",
+      "format": "pdf",
+      "url": "#",
+      "category": "Văn kiện Đảng",
+      "size": "2.4 MB"
+    },
+    {
+      "id": "doc_2",
+      "title": "Hướng dẫn số 12-HD/BTCTW về sinh hoạt Chi bộ Đảng",
+      "format": "doc",
+      "url": "#",
+      "category": "Hướng dẫn nghiệp vụ",
+      "size": "850 KB"
+    },
+    {
+      "id": "doc_3",
+      "title": "Tài liệu tập huấn Bí thư Chi bộ Quân sự năm 2026",
+      "format": "ppt",
+      "url": "#",
+      "category": "Tài liệu ôn thi",
+      "size": "5.6 MB"
+    }
+  ],
+  "settings": {
+    "contestName": "HỘI THI BÍ THƯ CHI BỘ GIỎI NĂM 2026",
+    "unitLogo": "/src/assets/images/trung_doan_1_logo_1783090344597.png",
+    "countdownDate": "2026-07-06",
+    "theme": "dark"
+  },
+  "examsList": [
+    {
+      "id": "exam_1",
+      "title": "Kỳ thi chính thức đợt 1",
+      "durationMinutes": 40,
+      "easyCount": 20,
+      "mediumCount": 20,
+      "hardCount": 10,
+      "isActive": false,
+      "allowedAttempts": 1,
+      "shuffleQuestions": true,
+      "shuffleOptions": true
+    }
+  ],
+  "logs": [
+    {
+      "id": "log_1783309477607",
+      "time": "03:44",
+      "date": "6/7/2026",
+      "user": "Trịnh Xuân Hoàng",
+      "action": "Nhập thành công 96 câu hỏi vào ngân hàng đề từ Excel",
+      "ip": "127.0.0.1"
+    }
+  ]
+}
